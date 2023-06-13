@@ -1,0 +1,10 @@
+1-SELECT coaches.name, Athletes.name
+FROM coaches
+INNER JOIN Athletes ON coaches.discipline = Athletes.Discipline
+WHERE coaches.discipline = 'Handball';
+
+2-A tabela de medalhas só mostra quais países ganharam medalhas e suas quantidades e tipos. Não temos informações específicas sobre quais atletas ou times conquistaram as medalhas.
+
+ 3-Temos a informação sobre quantas medalhas a Noruega ganhou, mas não sabemos quais atletas conquistaram essas medalhas. Infelizmente, não temos esses detalhes.
+
+ 4-Nas tabelas que temos, não há informações suficientes para determinar quais brasileiros não ganharam medalhas. Infelizmente, não podemos obter essa lista com base nos dados disponíveis.
